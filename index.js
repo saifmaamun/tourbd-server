@@ -56,14 +56,13 @@ async function run() {
         })
 
         // // POST API
-        // app.post('/destinations', async (req, res) => {
-        //     const destination = req.body;
-        //     console.log('hitting', destination)
-
-        //     const result = await tourCollaction.insertOne(destination);
-        //     console.log(result)
-        //     res.json(result)
-        // })
+        app.post('/places', async (req, res) => {
+            const place = req.body;
+            console.log('hit', place)
+            const result = await tourPlaces.insertOne(place);
+            console.log(result)
+            res.json(result)
+        })
 
         // // for order
         // // POST API
@@ -74,14 +73,6 @@ async function run() {
             const result = await orderedTours.insertOne(orders);
             res.json(result)
         })
-        // app.post('/booked', async (req, res) => {
-        //     const booked = req.body;
-        //     console.log('hitting', booked)
-
-        //     const result = await bookedTour.insertOne(booked);
-        //     console.log(result)
-        //     res.json(result)
-        // })
         // // for order
         // //DELETE API
         app.delete('/orders/:id', async (req, res) => {
@@ -91,17 +82,7 @@ async function run() {
             res.json(result)
         })
         
-        // //DELETE API
-        // app.delete('/destinations/:id', async (req, res) => {
-        //     const id = req.params.id;
-        //     const query = { _id: ObjectId(id) };
-        //     const result = await tourCollaction.deleteOne(query)
-        //     console.log(result)
-        //     res.json(result)
-        // })
-
-
-
+ 
 
 
     } finally {
