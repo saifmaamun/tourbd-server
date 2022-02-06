@@ -1,0 +1,46 @@
+[
+    {
+        "_id": {
+            "$oid": "617cb52530a0befe9f082d1d"
+        },
+        "name": "Sundarbans",
+        "origin": "Khulna",
+        "description": "Sundarbans has declared World Heritage Site by UNESCO which is the largest Mangrove Forest situated between two countries. It is the kingdom of Royal Bengal tiger and you will find various kinds of species of birds, animals & plants and I think you should visit the tranquilizing beauty of Sundarbans once in your life.",
+        "thumbnail": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image001-1024x682.jpg",
+        "img": "https://cdn.britannica.com/54/75854-050-E27E66C0/Eiffel-Tower-Paris.jpg",
+        "cost": "500"
+    },
+    {
+        "_id": {
+            "$oid": "617cb52530a0befe9f082d1e"
+        },
+        "name": "Chittagong Hill Tracks",
+        "origin": "Chittagong",
+        "description": "Hills are always enchanting to the tourist and as a tourist, you should obviously visit Chittagong Hill Tracks once which is the home of many tribal and you can discover yourself in the amazing green view. Chittagong Hill Tracks is the best place for making an adventurous tour and for this you have to take permission from the authority.",
+        "thumbnail": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image003.jpg",
+        "img": "https://cdn.britannica.com/54/75854-050-E27E66C0/Eiffel-Tower-Paris.jpg",
+        "cost": "500"
+    },
+    {
+        "_id": {
+            "$oid": "617cb52530a0befe9f082d1f"
+        },
+        "name": "Srimagal",
+        "origin": "Chittagong",
+        "description": "The Capital of tea in Bangladesh is Srimagal which is situated in the north-eastern part of the country where you will find lush greenery fields all around. It is one of the best places in Bangladesh where you can really have the place & clam environment and there are two more visiting places too, Lawachhara National Park & Hamham Waterfalls.",
+        "thumbnail": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image005-1024x684.jpg",
+        "img": "https://cdn.britannica.com/54/75854-050-E27E66C0/Eiffel-Tower-Paris.jpg",
+        "cost": "500"
+    },
+    {
+        "_id": {
+            "$oid": "617cb52530a0befe9f082d1g"
+        },
+        "name": "Rangamati",
+        "origin": "Chittagong",
+        "description": "The District of Chittagong Hill Tracks area in Rangamati, a place full of natural amusement and here, here, you can find a man-made lake surrounded by Hill called Kaptai Lake where you can take a ride by boat all over the day, a Buddhist Monastery here named Rajban Bihara, a high-quality handicrafts market made by the tribal of Rangamati.",
+        "thumbnail": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image007.jpg",
+        "img": "https://cdn.britannica.com/54/75854-050-E27E66C0/Eiffel-Tower-Paris.jpg",
+        "cost": "500"
+    }
+]
